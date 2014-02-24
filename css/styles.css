@@ -1,0 +1,18 @@
+/* Your Website Styles */
+h3, h4, h5 {
+	font-family: 'Varela Round', sans-serif;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	font-size: 1.25em;
+}
+h5 {
+	font-size: .75em;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
