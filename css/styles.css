@@ -20,7 +20,7 @@ body {
 	background: url("../img/bg.png");
 	color: #b2b2b2;
 	font: .75em;
-	padding: 20px;
+
 }
 
 button {
@@ -52,8 +52,14 @@ header {
 	color: #000;
 }
 
-table {
+section {
+	float: left;
+	width: 50%;
+}
 
+.container {
+	margin:0 auto;
+	width: 90%;
 }
 
 .c1, .c2, .c3, .t1, .t2, .t3 {
