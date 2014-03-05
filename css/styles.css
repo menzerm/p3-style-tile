@@ -83,8 +83,16 @@ header {
 	background: url("../img/head.png");
 	color: #000;
 }
+
+header section {
+	clear: ;
+	float: left;
+}
+
 header img {
-	padding: .5%;
+	clear: both;
+	float: left;
+	padding: 1.5% 1.5% 1.5% .5%;
 }
 
 strong {
@@ -131,6 +139,16 @@ li:nth-child(7):first-letter {
 .container {
 	margin:0 auto;
 	width: 80%;
+}
+
+.ctb {
+	float: left;
+	clear:left;
+}
+
+.type {
+	float: left;
+	clear: both;
 }
 
 .head {
