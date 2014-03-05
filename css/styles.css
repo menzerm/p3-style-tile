@@ -1,15 +1,86 @@
 /* Your Website Styles */
-h3, h4, h5 {
-	font-family: 'Varela Round', sans-serif;
+a:link {
+    color: #b2b2b2;
+    text-decoration: none;
 }
+
+a:visited {
+    color: #b2b2b2;
+}
+
+a:focus {
+	border: 3px lime solid
+}
+
+a:hover {
+  color: lime;
+}
+
+body {
+	background: url("../img/bg.png");
+	color: #b2b2b2;
+	font: .75em;
+	padding: 20px;
+}
+
+button {
+	background: #000;
+	border-radius: 4px;
+	padding: .5em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+	font: bold 1.6em
+}
+
 h3 {
-	font-size: 1.5em;
+	font: 1.2em;
 }
 h4 {
-	font-size: 1.25em;
+	font: .8em;
 }
 h5 {
 	font-size: .75em;
+}
+
+header {
+	background: #b2b2b2;
+	color: #000;
+}
+
+table {
+
+}
+
+.c1, .c2, .c3, .t1, .t2, .t3 {
+	border: 5px solid #fff;
+	height:100px;
+	width: 100px;
+	margin: 1%;
+}
+
+.c1 {
+	background: #000;
+}
+
+.c2 {
+	background: lime;
+}
+
+.c3 {
+	background: #b2b2b2;
+}
+
+.t1 {
+	background: url("../img/bg.png");
+}
+
+.t2, .t3 {
+	background: #f0f;
 }
 
 /* Show Grid
