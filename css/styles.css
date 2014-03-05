@@ -1,18 +1,16 @@
 /* Your Website Styles */
-a:link {
+a:link,
+a:visited {
     color: #b2b2b2;
     text-decoration: none;
 }
 
-a:visited {
-    color: #b2b2b2;
-}
-
 a:focus {
-	border: 3px lime solid
+	border: 2px lime solid;
 }
 
-a:hover {
+a:hover,
+a:active {
   color: lime;
 }
 
@@ -20,13 +18,24 @@ body {
 	background: url("../img/bg.png");
 	color: #b2b2b2;
 	font: .75em;
-
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.5em;
 }
 
 button {
 	background: #000;
+	border: none;
 	border-radius: 4px;
-	padding: .5em;
+	font: bold;
+	letter-spacing: 1px;
+	padding: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+button a {
+	padding: 1em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -48,22 +57,27 @@ h5 {
 }
 
 header {
-	background: #b2b2b2;
+	background: url("../img/head.png");
 	color: #000;
 }
+header img {
+	padding: .5%;
+}
 
-section {
+
+article section {
 	float: left;
 	width: 50%;
 }
 
 .container {
 	margin:0 auto;
-	width: 90%;
+	width: 80%;
 }
 
 .c1, .c2, .c3, .t1, .t2, .t3 {
 	border: 5px solid #fff;
+	float: left;
 	height:100px;
 	width: 100px;
 	margin: 1%;
@@ -85,7 +99,11 @@ section {
 	background: url("../img/bg.png");
 }
 
-.t2, .t3 {
+.t2{
+	background: url("../img/head.png");
+} 
+
+.t3 {
 	background: #f0f;
 }
 
