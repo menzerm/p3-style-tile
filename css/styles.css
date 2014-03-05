@@ -5,7 +5,7 @@ a:visited {
 }
 
 a:focus {
-	border: 2px lime solid;
+	border: .25em lime solid;
 }
 
 a:hover,
@@ -31,7 +31,9 @@ button {
 	border: none;
 	border-radius: 4px;
 	font-size: 1.2em;
+	font-weight: bold;
 	letter-spacing: 1px;
+	margin: 0 1em 1em 0;
 	padding: .75em;
 	text-align: center;
 	text-decoration: none;
@@ -48,10 +50,14 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	font-size: 3em;
+	font-weight: bold;
+	margin-bottom: -.25em;
+	text-transform: uppercase;
 }
 
 h2 {
-	font-size: 1.6em
+	font-size: 1.6em;
+	margin-bottom: -.75em;
 }
 
 h3 {
@@ -65,6 +71,14 @@ h5 {
 	font-size: 1.2em;
 }
 
+h3 + p {
+	margin-top: -.25em;
+}
+
+h4 + p {
+	margin-top: -.25em;
+}
+
 header {
 	background: url("../img/head.png");
 	color: #000;
@@ -73,13 +87,30 @@ header img {
 	padding: .5%;
 }
 
+strong {
+	font-weight: bold;
+}
+
 .container {
 	margin:0 auto;
 	width: 80%;
 }
 
-.c1, .c2, .c3, .t1, .t2, .t3 {
-	border: 5px solid #fff;
+.head {
+	color: lime;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-bottom:.25em;
+	text-transform: uppercase;
+}
+
+.subhead {
+	font-size: 2em;
+	margin-bottom: .25em;
+}
+
+.c1, .c2, .c3, .t1, .t2 {
+	border: .4em solid #fff;
 	float: left;
 	height:7em;
 	width: 7em;
@@ -105,7 +136,3 @@ header img {
 .t2{
 	background: url("../img/head.png") top left repeat;
 } 
-
-.t3 {
-	background: #f0f;
-}
